@@ -11,7 +11,7 @@ try:
             saniyeler.append(float(saniye))
             yukseklikler.append(float(yukseklik))
 except FileNotFoundError:
-    print("Hata: 'simulasyon_veri.txt' bulunamadı! Önce C kodunu çalıştır kanka.")
+    print("Hata: 'simulasyon_veri.txt' bulunamadı! Önce C kodunu çalıştır.")
     exit()
 
 # Grafiği janti bir mühendislik raporu moduna sokuyoruz
